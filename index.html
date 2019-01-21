@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Clock by Marcin</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Kanit|Raleway"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <section class="music-container">
+          <div class="music-wrapper">
+            <i class="fas fa-times"></i>
+            <div data-title="Rumors.mp3" class="song">
+              <h1>NEFFEX - Rumors</h1>
+            </div>
+            <div data-title="Careless.mp3" class="song">
+              <h1>NEFFEX - Careless</h1>
+            </div>
+            <div data-title="Ignite.mp3" class="song">
+              <h1>K-391 & Alan Walker - Ignite</h1>
+            </div>
+            <div data-title="Legenda.mp3" class="song">
+              <h1>donGURALesko - Legenda (SzUsty Blend)</h1>
+            </div>
+            <div data-title="Tokyo Drift.mp3" class="song">
+              <h1>KVSH - Tokyo Drift (Baby Driver)</h1>
+            </div>
+            <div data-title="Mortals.mp3" class="song">
+              <h1>Warriyo - Mortals</h1>
+            </div>
+          </div>
+        </section>
+        <div class="wrapper">
+          <div class="wake-info"></div>
+          <h1 class="app-header">Wake Up App</h1>
+          <input
+            type="time"
+            class="wake-up-val-input"
+            placeholder="Podaj godzinę budzika"
+          />
+          <button class="wake-up-btn" id="set-music-btn">Wybierz utwór</button>
+          <button type="button" id="wake-up-btn" class="wake-up-btn">
+            Zatwierdź
+          </button>
+          <button type="button" id="turn-on-clock" class="wake-up-btn none">
+            Wyłącz
+          </button>
+        </div>
+      </section>
+    </main>
+    <!-- <script src="main.js"></script> -->
+    <script src="app.js"></script>
+  </body>
+</html>
